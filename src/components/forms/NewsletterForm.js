@@ -10,6 +10,7 @@ class NewsletterForm extends Component {
 	render() {
 		const { className, submit = 'Submit' } = this.props
 		const { email } = this.state
+		console.log(email)
 
 		return (
 			<form
